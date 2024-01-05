@@ -1,0 +1,14 @@
+In openpose_main:  No module named 'Utility' , try adding parent dir to sys.path . . .
+Traceback (most recent call last):
+  File "2_z_per_frame_id__use_yolo_face.py", line 30, in <module>
+    import Utility.reaching_const as reaching_const
+ModuleNotFoundError: No module named 'Utility'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "2_z_per_frame_id__use_yolo_face.py", line 42, in <module>
+    from Utility.human_properties import Person
+  File "Z:\Thiet\Reaching-Detection-main - Copy\Pose_Head_Integration/..\Utility\human_properties.py", line 2, in <module>
+    import reaching_const
+ModuleNotFoundError: No module named 'reaching_const'

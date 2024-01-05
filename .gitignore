@@ -1,0 +1,15 @@
+# directories #
+###################
+bin/
+include/
+lib/
+models/
+.idea/
+__pycache__/
+data/output_files/*/
+
+###################
+*.pt
+
+###################
+Thumbs.db
