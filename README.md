@@ -84,5 +84,5 @@ Within each video output subfolder, there are 4 key subfolders:
 - _output_videos/_ - Contains versions of input video with pose overlay visualizations.
 - _matlab_files/_ - Contains data files that can be loaded in Matlab.
 
-## References:
+## Additional materials used in the project:
 The example video in _data/list_of_files_ is a shorten version of the video named "Impatient Children|How to Deal With it Effectively|" from Youtube: https://www.youtube.com/watch?v=BM6DPRo_QfE. The video is under license "Creative Commons Attribution license (reuse allowed)".
