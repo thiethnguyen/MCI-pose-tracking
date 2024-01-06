@@ -24,7 +24,7 @@ The code in this repository has been tested to work well on systems with these p
 
 #### Instructions for **_Step 2_** - downloading necessary Openpose pretrained models:
 1. (For computer with Nvidia GPU) For maximum speed, you should use OpenPose in a machine with a Nvidia GPU version. If so, you must upgrade your Nvidia drivers to the latest version (in the Nvidia "GeForce Experience" software or its [website](https://www.nvidia.com/Download/index.aspx)).
-2. **Download the latest OpenPose version from the [Releases](https://github.com/CMU-Perceptual-Computing-Lab/openpose/releases) section.**
+2. **Download the latest OpenPose version from the [Releases](https://github.com/CMU-Perceptual-Computing-Lab/openpose/releases) section. (If GPU is going to be used, download the file "openpose-1.7.0-binaries-win64-gpu-python3.7-flir-3d_recommended.zip".)**
 3. **Follow the Instructions.txt file inside the downloaded zip file to download the models required by OpenPose (about 500 Mb).**
 4. (Optional) Then, you can run OpenPose from the PowerShell command-line by following [doc/01_demo.md](https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/master/doc/01_demo.md).
 
@@ -79,10 +79,10 @@ The pose estimation and tracking results will be saved to the output folder you 
 
 Within each video output subfolder, there are 4 key subfolders:
 
-- _face_outputs/_ - Contains outputs related to face/head detection.
-- _json_files/_ - Contains body pose keypoint data with ID information in JSON format.
-- _output_videos/_ - Contains versions of input video with pose overlay visualizations.
-- _matlab_files/_ - Contains data files that can be loaded in Matlab.
+- _face_outputs/_ - Contains the output video of the face/head detection.
+- _json_files/_ - Contains body pose keypoint data with ID information in JSON format. The file with "combined_output" suffix has integrated pose + head detections.
+- _output_videos/_ - Contains the output video of the pose estimation.
+- _matlab_files/_ - Contains data files in ".mat" format. Two smaller subfolders can be found: "0" contains the keypoints of mom and "1" contains the keypoints of baby.
 
 ## Additional materials used in the project:
 The example video in _data/list_of_files_ is a shorten version of the video named "Impatient Children|How to Deal With it Effectively|" from Youtube: https://www.youtube.com/watch?v=BM6DPRo_QfE. The video is under license "Creative Commons Attribution license (reuse allowed)".
