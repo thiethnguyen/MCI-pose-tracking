@@ -30,7 +30,7 @@ The code in this repository has been tested to work well on systems with these p
 
 Further instructions for **_Step 2_** can be found via [Windows Portable Demo](https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/master/doc/installation/0_index.md#windows-portable-demo).
 
-If the links for downloading the models fail (which may occur while running the .bat file), you can download the entire _model_ folder from [here](https://drive.google.com/drive/u/2/folders/1DyzjWh5O6CCH_BXdIyXTJoJJarkd3wSy).
+If the links for downloading the models fail (which may occur while running the .bat file), you can download the entire _models_ folder from [here](https://drive.google.com/drive/u/2/folders/1DyzjWh5O6CCH_BXdIyXTJoJJarkd3wSy).
 
 #### Instructions for **_Step 5_** - setting up new python environments:
 
