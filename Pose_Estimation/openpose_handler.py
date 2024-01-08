@@ -169,10 +169,13 @@ class Input:
             const.SCREEN_HEIGHT = self.frame_height
             const.SCREEN_WIDTH = self.frame_width
 
-        if self.frame_height > 720:
-            self.size = (int(self.frame_width * 720 / self.frame_height), 720)
-        else:
-            self.size = (self.frame_width, self.frame_height)
+        # to reduce the output resolution
+        # if self.frame_height > 720:
+        #     self.size = (int(self.frame_width * 720 / self.frame_height), 720)
+        # else:
+        #     self.size = (self.frame_width, self.frame_height)
+
+        self.size = (self.frame_width, self.frame_height)
 
         if self.input_is_video:
             lines = ['Width: ' + str(self.frame_width), 'Height: ' + str(self.frame_height), 'FPS: ' + str(frame_rate),
